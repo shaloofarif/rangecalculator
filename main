@@ -1,1 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+
+float x,l,c,r;
+printf("For many rupees did you buy the petrol ?\n");
+scanf("%f",&x); /*x=cost of petrol i filled */
+printf("What is the current price of petrol ?\n");
+scanf("%f",&c);
+l=(x/c);        /* l=number of litres of petrol filled */
+printf("Currently there is %f litres of petrol in your scooter.\n",l);
+r= l*50;        /*r=range ; kilometres left */
+printf("%f kilometres left.\n",r);
+
+return EXIT_SUCCESS;
+
+}
 
